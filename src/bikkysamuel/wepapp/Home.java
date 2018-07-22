@@ -32,7 +32,7 @@ public class Home extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		String str = "PROJECT : WEB APP <br/> DATE :: "  +  new Date();
+		String str = "Harry Singh PROJECT : WEB APP <br/> DATE :: "  +  new Date();
 		
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
